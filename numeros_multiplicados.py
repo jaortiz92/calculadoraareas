@@ -38,13 +38,13 @@ if __name__ == "__main__":
     for j in range(100):
         if j == 0:
             main()
-        continuar = input("""\n\n¿Desea calcular otra área?
+        continuar = input("""\n\n¿Desea calcular otra vez?
         \n\n\t\t\t1. SI 
         \n\t\t\t2. NO
         """)
-        if continuar == "1":
+        if continuar == "1" or "si" or "Si" or "SI":
             main()
-        elif continuar == "2":
+        elif continuar == "2"or "no" or "Ni" or "NO":
             break
         else:
             print("Por favor ingrese una opcion valida")
